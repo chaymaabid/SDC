@@ -1,0 +1,30 @@
+.firstSection{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.firstSectionImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.firstSectionText{
+    position: absolute;
+    top:55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+.firstSectionText h1{
+    font-size: 3rem;
+    font-weight: 600;
+    background: azure;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+@media screen and (maxwidth: 555px) {
+
+    .firstSectionText h1{   
+        padding: 10px 20px;
+    }
+}
