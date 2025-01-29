@@ -20,13 +20,13 @@ export const MenuItems=[
     
     {
         title : "Workshops",
-        url:'/',
+        url:'/Workshops',
         cName:"nav-links",
         icon:"",
     },
     {
         title : "Schedule",
-        url:'/',
+        url:'/Schedule',
         cName:"nav-links",
         icon:"",
     },
