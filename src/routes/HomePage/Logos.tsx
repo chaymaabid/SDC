@@ -1,14 +1,22 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
+import fondation from '../../assets/logosSection/foundation.jpg';
+import HT from '../../assets/logosSection/HT.png';
+import IEEStudent from '../../assets/logosSection/IEEE_Students.png';
+import poly from '../../assets/logosSection/Logo-Polytec.png';
+import ODC from '../../assets/logosSection/ODC-3.png';
 import IEEELogo from "../../assets/logosSection/IEE.png";
-import test from "../../assets/test.jpg";
+import sight from '../../assets/logosSection/sight.png';
+import isimm from '../../assets/logosSection/ieee_isimm.png';
 
 const logos = [
-    { img: IEEELogo, alt: "IEEE" },
-    { img: IEEELogo, alt: "IEEE" },
-    { img: IEEELogo, alt: "IEEE" },
-    { img: IEEELogo, alt: "IEEE" },
-    { img: IEEELogo, alt: "IEEE" },
+    { img: fondation, alt: "IEEE fondation", class:''},
+    { img: HT, alt: "IEEE Humunitarian Technologies", class:'plusLogo' },
+    { img: IEEStudent, alt: "IEEE Student" , class:''},
+    { img:  poly, alt: "Poly technique sousse" , class:''},
+    { img: ODC, alt: "ODC" , class:''},
+    { img:  sight, alt: "Sight" , class:'plusLogo'},
+    { img: isimm, alt: "ISIMM" , class:'plusLogo'},
   ];
 const Logos: React.FC = () => {
   return (
@@ -16,13 +24,13 @@ const Logos: React.FC = () => {
       <LogosContainer>
       <LogosSlide>
         {logos.map((logo, index) => (
-          <LogoImage key={`slide1-${index}`} src={logo.img} alt={logo.alt} />
+          <LogoImage key={`slide1-${index}`} src={logo.img} alt={logo.alt} className={logo.class} />
         ))}
       </LogosSlide>
 
       <LogosSlide>
         {logos.map((logo, index) => (
-          <LogoImage key={`slide2-${index}`} src={logo.img} alt={logo.alt} />
+          <LogoImage key={`slide2-${index}`} src={logo.img} alt={logo.alt} className={logo.class}/>
         ))}
       </LogosSlide>
     </LogosContainer>
@@ -78,9 +86,9 @@ const LogosSlide = styled.div`
 `;
 
 const LogoImage = styled.img`
-  height: 70px;
+  height: ${(props) => (props.className === 'plusLogo' ? '150px' : '70px')} !important;
+  width: ${(props) => (props.className === 'plusLogo' ? '200px' : '150px')} !important;
   margin: 0 40px;
-  width: 150px;
 `;
 
 const Background = styled.body`

@@ -9,7 +9,9 @@ const speakersData = [
     { name: "Speaker 2",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: "../../src/assets/speakersimg/speaker1.jpg" },
     { name: "Speaker 3", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: "../../src/assets/speakersimg/speaker1.jpg" },
     { name: "Speaker 4", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: "../../src/assets/speakersimg/speaker1.jpg" },
-    // Add more speakers as needed
+    { name: "Speaker 4", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: "../../src/assets/speakersimg/speaker1.jpg" },
+    { name: "Speaker 4", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: "../../src/assets/speakersimg/speaker1.jpg" },
+    
   ];
 function Speakers (){
     return(

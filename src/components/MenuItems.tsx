@@ -7,7 +7,7 @@ export const MenuItems=[
     },
     {
         title : "Challenges",
-        url:'/',
+        url:'/Challenges',
         cName:"nav-links",
         icon:"",
     },
