@@ -30,6 +30,12 @@ export const MenuItems=[
         cName:"nav-links",
         icon:"",
     },
+    {
+        title : "Venue",
+        url:'/Venue',
+        cName:"nav-links",
+        icon:"",
+    },
     /* button 
     {
         title : "Sign Up",

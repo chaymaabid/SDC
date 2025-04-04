@@ -22,7 +22,7 @@ function Challenges (){
                             </a>
                             <h2 className="contentTitle">Technical Challenge</h2>
                             <p className="contentParagraph">
-                            Are you ready to dive into an exciting technical challenge that blends innovation and marine life? 🌎💡 This is your opportunity to showcase your problem-solving skills and develop impactful solutions inspired by the theme of SDC 3.0: Life Below Water!
+                            Illegal fishing is one of the biggest threats to marine ecosystems in Tunisia. It destroys fish populations, harms protected marine habitats, and affects the livelihoods of local fishermen. This challenge aims to develop a technical solution to detect, monitor, or prevent illegal fishing using innovative technology while ensuring sustainability and alignment with the United Nations Sustainable Development Goals (SDGs).
                             </p>
                             <a href='https://docs.google.com/forms/d/e/1FAIpQLScz9mJ5Ur1dOiQR-MAAkVl5MWeKUe8c10HVt7L_AdwCWwEJuw/viewform' className="btnAboutUs">Submission</a>
                         </div>
@@ -38,7 +38,7 @@ function Challenges (){
                             </a>
                             <h2 className="contentTitle">Non Technical Challenge</h2>
                             <p className="contentParagraph">
-                            Les groupes IEEE SIGHT et les branches étudiantes à travers la Tunisie sont invités à montrer leur impact, à mettre en lumière leurs initiatives et à partager leur vision pour un avenir meilleur grâce à la technologie.
+                            The SDC 3.0 Non-Tech Challenge is an opportunity for IEEE SIGHT Student Branch Groups to present their activities, projects, and SDC 4.0 proposal to host the next edition of this event. This challenge allows SBs and SIGHT Groups to highlight their projects, innovation, and dedication to using technology for a better future.
                             </p>
                             <a href='https://docs.google.com/forms/d/e/1FAIpQLScRDJ5j3ECbPR34oHwcji443Ct3f-REYiMR48pdGp0wwCvXlg/viewform' className="btnAboutUs">Submission</a>
                         </div>

@@ -1,6 +1,6 @@
 .firstSection{
     width: 100%;
-    height: 100vh;
+    height: 125vh;
     position: relative;
 }
 .firstSectionImg{
@@ -15,17 +15,32 @@
     transform: translate(-50%,-50%);
     width: 100%;
 }
-.firstSectionText h1{
-    font-size: 3rem;
+.firstSectionText h3{
+    font-size: 5rem;
     font-weight: 600;
     background: azure;
+    font-family: 'Berkshire Swash', cursive;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
 }
-@media screen and (maxwidth: 555px) {
+.firstSectionText h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 20px 20px;
+    background: azure;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media screen and (max-width: 1030px) {
 
+    .firstSectionText h3{   
+        padding: 10px 20px;
+        font-size: 50px;
+    }
     .firstSectionText h1{   
         padding: 10px 20px;
+        
     }
 }
 .plusLogo{

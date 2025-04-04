@@ -1,13 +1,9 @@
-import { useState } from 'react'
-import Navbar from "./components/NavBar";
 import './App.css'
 import { Routes,Route } from 'react-router-dom';
 import Home from './routes/HomePage/Home';
-import Speakers from './routes/SpeakersPage/Speakers';
-import Workshops from './routes/WorkshopsPage/Workshops';
-import Schedule from './routes/schedulePage/schedule';
 import Challenges from './routes/ChallengesPage/Challenges';
 import CommingSoon from './routes/CommingSoonPage/CommingSoon';
+import VenuePage from './routes/VenuePage/VenuePage';
 function App() {
 
   return (
@@ -23,6 +19,8 @@ function App() {
         <Route path="/Workshops" element={<CommingSoon/>}/>
         <Route path="/Schedule" element={<CommingSoon/>}/>
         <Route path="/Challenges" element={<Challenges/>}/>
+        <Route path="/Venue" element={<VenuePage/>}/>
+        
       </Routes>
      
       

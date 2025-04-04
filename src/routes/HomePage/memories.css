@@ -26,7 +26,7 @@
     left:0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0,0, 0.7);
+   
     opacity: 0;
     transition: .6s;
 }
@@ -41,7 +41,7 @@
     transition: .6s;
 }
 .Memories_wrapper .MemoriesCard:hover img{
-    filter:grayscale(40%) blur(2px);
+    filter:grayscale(4%) blur(1px);
     transform: scale(1.1);
 }
 .Memories_wrapper .MemoriesCard .MemoriesContent{

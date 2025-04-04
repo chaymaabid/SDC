@@ -9,7 +9,7 @@ function CommingSoon (){
         <div className="firstSection">
             <img className="firstSectionImg" alt="firstSection_bg" src={bg_img}/>
             <div className="firstSectionText backgroundSection">
-            <h3 style={{ fontSize:'150px', marginTop:'15%',color:'#ffff'}}>Comming Soon...</h3>
+            <h3 style={{ marginTop:'15%',color:'#ffff'}}>Coming Soon...</h3>
                  
 
             </div>

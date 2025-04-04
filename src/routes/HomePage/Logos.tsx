@@ -1,22 +1,18 @@
 import React from "react";
 import styled, { keyframes } from "styled-components";
-import fondation from '../../assets/logosSection/foundation.jpg';
 import HT from '../../assets/logosSection/HT.png';
-import IEEStudent from '../../assets/logosSection/IEEE_Students.png';
-import poly from '../../assets/logosSection/Logo-Polytec.png';
-import ODC from '../../assets/logosSection/ODC-3.png';
-import IEEELogo from "../../assets/logosSection/IEE.png";
 import sight from '../../assets/logosSection/sight.png';
 import isimm from '../../assets/logosSection/ieee_isimm.png';
-
+import IEEETunisiaSectionLogo from '../../assets/logosSection/IEEETunisiaSectionLogo.png';
 const logos = [
-    { img: fondation, alt: "IEEE fondation", class:''},
-    { img: HT, alt: "IEEE Humunitarian Technologies", class:'plusLogo' },
-    { img: IEEStudent, alt: "IEEE Student" , class:''},
-    { img:  poly, alt: "Poly technique sousse" , class:''},
-    { img: ODC, alt: "ODC" , class:''},
+    { img: HT, alt: "IEEE Humunitarian Technologies" },
     { img:  sight, alt: "Sight" , class:'plusLogo'},
     { img: isimm, alt: "ISIMM" , class:'plusLogo'},
+    { img: IEEETunisiaSectionLogo, alt: "IEEETunisiaSectionLogo" },
+    { img: HT, alt: "IEEE Humunitarian Technologies" },
+    { img:  sight, alt: "Sight" , class:'plusLogo'},
+    { img: isimm, alt: "ISIMM" , class:'plusLogo'},
+    { img: IEEETunisiaSectionLogo, alt: "IEEETunisiaSectionLogo" },
   ];
 const Logos: React.FC = () => {
   return (
@@ -86,8 +82,8 @@ const LogosSlide = styled.div`
 `;
 
 const LogoImage = styled.img`
-  height: ${(props) => (props.className === 'plusLogo' ? '150px' : '70px')} !important;
-  width: ${(props) => (props.className === 'plusLogo' ? '200px' : '150px')} !important;
+  height: ${(props) => (props.className === 'plusLogo' ? '200px' : '150px')} !important;
+  width: ${(props) => (props.className === 'plusLogo' ? '250px' : '200px')} !important;
   margin: 0 40px;
 `;
 

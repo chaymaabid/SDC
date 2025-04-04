@@ -1,0 +1,75 @@
+/* Venue Page Styling */
+
+
+.venue-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+    padding-right: 20px;
+}
+
+.map-wrapper {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.map-wrapper:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.venue-info {
+    padding-left: 20px;
+}
+
+.venue-title {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.venue-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background-color: transparent;
+}
+
+.venue-name {
+    color: #007bff;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.venue-details {
+    margin-bottom: 25px;
+}
+
+.venue-details p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.venue-details i {
+    margin-right: 10px;
+    color: #007bff;
+}
+
+.venue-description {
+    line-height: 1.6;
+}
+
+.venue-description p {
+    margin-bottom: 15px;
+    display: inline;
+}

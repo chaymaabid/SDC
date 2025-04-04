@@ -11,70 +11,65 @@ import  './memories.css';
 function Memories(){
     return(
         <>
-        <h1 className="heading"><span>SDC-2024</span></h1>
+        <h1 className="heading"><span>sdc2.0 memories</span></h1>
         <div className='Memories_wrapper  section'>
             
             <div className='MemoriesCard'>
                 <img src={memorie2} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>DZSQDSDF</h3>
+                    
                     
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie7} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
-                    <a href='#'> view more</a>
+                   
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie3} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>ifgrg</h3>
-                    <a href='#'> view more</a>
+                   
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie4} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image4</h3>
-                    <a href='#'> view more</a>
+                    
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie5} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
-                    <a href='#'> view more</a>
+                   
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie6} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
-                    <a href='#'> view more</a>
+                    
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie1} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
-                    <a href='#'> view more</a>
+                    
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie8} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
-                    <a href='#'> view more</a>
+                    
                 </div>
             </div>
             <div className='MemoriesCard'>
                 <img src={memorie9} alt="img1"/>
                 <div className='MemoriesContent'>
-                    <h3>image1</h3>
+                {/*
+                 <h3>image1</h3>
                     <a href='#'> view more</a>
+                */}
                 </div>
             </div>
         </div>

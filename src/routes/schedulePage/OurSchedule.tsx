@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 import "./shedule.css";
 import Day2 from "./Day2";

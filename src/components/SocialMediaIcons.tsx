@@ -1,11 +1,4 @@
-import React from 'react';
 import './SocialMediaIcons.css';
-import linkedin from '../assets/linkedin1.svg';
-import instagramIcon from '../assets/instagramIcon.png';
-import facebookIcon from '../assets/facebookIcon.png';
-
-import instagramIcon2 from '../assets/logo-instagram.png';
-import facebookIcon2 from '../assets/logo-facebook.png';
 function SocialMediaIcons() {
     return (
         <div className="social-media-icons">
