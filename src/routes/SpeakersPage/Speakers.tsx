@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import'./Speakers.css';
 import speaker from '../../src/assets/speakersimg/speaker1.jpg';
 const speakersData = [
-    { name: "Khaled Letaief",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: {speaker} },
-    { name: "Speaker 2",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: {speaker} },
-    { name: "Speaker 3", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: {speaker} },
+    { name: "Khaled Letaief",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: speaker },
+    { name: "Speaker 2",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: speaker },
+    { name: "Speaker 3", desc:"Division Director III, IEEE Board of Directors",linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: speaker },
 
     
   ];
