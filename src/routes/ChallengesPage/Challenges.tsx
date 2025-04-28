@@ -1,5 +1,5 @@
 import Navbar from "../../components/NavBar";
-import bg_img from '../../assets/bg_section12.jpg';
+
 import './Challenges.css';
 import technicalChallenge from '../../assets/challenges/technicalChallenge.jpg';
 import nontechnicalChallenge from '../../assets/challenges//nonTechnical.jpg';
@@ -8,8 +8,8 @@ function Challenges (){
         <>
             <Navbar />
             <div className="firstSection">
-                <img className="firstSectionImg" alt="firstSection_bg" src={bg_img} />
-                <div className="firstSectionText backgroundSection">
+            <div className="gradientBackground"></div>
+                <div className="firstSectionText backgroundSectionTransparent">
                     <div className="contentContainer">
                         {/* Left Side (50%) */}
                         <div className="contentHalf leftContent">

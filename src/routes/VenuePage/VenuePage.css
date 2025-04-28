@@ -30,9 +30,10 @@
 .venue-title {
     color: #333;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     position: relative;
     padding-bottom: 10px;
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .venue-title:after {
@@ -46,7 +47,7 @@
 }
 
 .venue-name {
-    color: #007bff;
+    color: #020303;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -67,9 +68,20 @@
 
 .venue-description {
     line-height: 1.6;
+    padding-bottom: 10px;
 }
 
 .venue-description p {
     margin-bottom: 15px;
     display: inline;
+}
+@media screen and (max-width: 1000px) {
+    .venue-details p {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+    .mapframe {
+        height:200px;
+    }
+    
 }

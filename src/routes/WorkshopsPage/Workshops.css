@@ -1,0 +1,46 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .workshops-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media(width <= 425px){
+    .workshops-container {
+        padding-top: 650px;
+    }
+    .gradientBackground{
+        height: 190%;
+    }
+  }
+  .workshop-item {
+    width: calc(50% - 1rem);
+    min-width: 300px;
+  }
+  
+  /* Make sure the WorkshopCart components fit within their containers */
+  .workshop-item .card {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .workshop-item {
+    
+    }
+  
+    .firstSectionText {
+      padding: 10px;
+    }
+  }
+  

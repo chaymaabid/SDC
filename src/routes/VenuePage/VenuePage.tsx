@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "../../components/NavBar";
-import bg_img from '../../assets/bg_section12.jpg';
+
 import './VenuePage.css'; 
 
 function VenuePage() {
@@ -8,7 +8,7 @@ function VenuePage() {
         <>
             <Navbar/>
             <div className="firstSection">
-                <img className="firstSectionImg" alt="firstSection_bg" src={bg_img}/>
+            <div className="gradientBackground"></div>
                 <div className="firstSectionText">
                     <div className="container venue-container">
                         <div className="row">
@@ -22,6 +22,7 @@ function VenuePage() {
                                         style={{border: 0}} 
                                         allowFullScreen loading="lazy" 
                                         title="Venue Location"
+                                        className='mapframe'
                                     ></iframe>
                                 </div>
                             </div>
@@ -29,7 +30,7 @@ function VenuePage() {
                             {/* Right side - Location info */}
                             <div className="col-md-6 venue-info">
                                 <h2 className="venue-title">Sight Day Congress (SDC 3.0) </h2>
-                                <h3 className="venue-name"></h3>
+                                
                                 <div className="venue-description">
                                     <p>The Sight Day Congress (SDC 3.0) is the annual congress of all SIGHT groups in the Tunisia section, and this edition is proudly hosted by SIGHT Group ISIMM SB, IEEE ISIMM SB, and IEEE SIGHT Group Tunisia Section. This year's theme, "Marine Life", brings an exciting exploration of the latest technologies, innovations, and research focused on preserving, understanding, and advancing marine ecosystems.</p>
                                 </div>

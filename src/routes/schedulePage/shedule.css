@@ -3,10 +3,11 @@
     background-color: #ffff;
     border-radius:20px;
     /* padding: 45px;*/
+    height: 450px;
   }
   
   .nav-tabs {
-    background-color: #f0f8ff;
+    background-color: #ffff;
     border-radius: 100px;
     border-bottom: 0;
     padding: 15px;

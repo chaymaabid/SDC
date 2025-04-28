@@ -8,7 +8,7 @@ function CommingSoon (){
         <Navbar/>
         <div className="firstSection">
             <img className="firstSectionImg" alt="firstSection_bg" src={bg_img}/>
-            <div className="firstSectionText backgroundSection">
+            <div className="firstSectionText  backgroundSectionTransparent">
             <h3 style={{ marginTop:'15%',color:'#ffff'}}>Coming Soon...</h3>
                  
 

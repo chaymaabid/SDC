@@ -1,6 +1,7 @@
 import Navbar from "../../components/NavBar";
 import SocialMediaIcons from "../../components/SocialMediaIcons";
-import bg_img from '../../assets/bg_section12.jpg'
+
+import logoHome from "../../assets/Main_Logo_BlackTxt (1).png";
 import "./Home.css";
 import AboutSection from './AboutSection';
 import CountdownTimer from "./CountdownTimer";
@@ -12,9 +13,11 @@ function Home (){
         
         <Navbar/>
         <div className="firstSection">
-            <img className="firstSectionImg" alt="firstSection_bg" src={bg_img}/>
-            <div className="firstSectionText">
-                <h1>SIGHT Day Congress</h1>
+        <div className="gradientBackground"></div>
+        <div className="firstSectionText">
+        <div className="logoHome-container">
+          <img src={logoHome} alt="SIGHT Day Congress Logo" className="logoHome" />
+        </div>
          
                 <CountdownTimer/>
             </div>
