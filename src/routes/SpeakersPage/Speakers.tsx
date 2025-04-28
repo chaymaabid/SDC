@@ -3,7 +3,7 @@ import Navbar from "../../components/NavBar";
 import SpeakerCard from "./SpeakerCard";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import'./Speakers.css';
-import speaker from '../../src/assets/speakersimg/speaker1.jpg';
+import speaker from '../../assets/speakersimg/speaker1.jpg';
 const speakersData = [
     { name: "Khaled Letaief",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: speaker },
     { name: "Speaker 2",desc:"Division Director III, IEEE Board of Directors", linkedinLink: "https://www.linkedin.com/in/abid-chayma/", image: speaker },
